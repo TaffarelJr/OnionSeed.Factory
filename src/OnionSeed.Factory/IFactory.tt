@@ -1,0 +1,65 @@
+﻿<#@ include file="Shared.t4" #>
+namespace OnionSeed.Factories
+{
+<#
+for (var i = 0; i <= 16; i++)
+{
+	if (i > 0)
+	{
+#>
+
+<#
+	}
+#>
+	/// <summary>
+	/// Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/><#
+	if (i > 0)
+	{
+		#> using <#= NumberString(i) #> parameter<#= i > 1 ? "s" : "" #><#
+	}
+#>.
+	/// </summary>
+<#
+	for (var j = 1; j <= i; j++)
+	{
+#>
+	/// <typeparam name="T<#= i > 1 ? j.ToString() : "" #>">The type of the<#= i > 1 ? $" {OrdinalString(j)} " : " " #>parameter. This type parameter is contravariant.</typeparam>
+<#
+	}
+#>
+	/// <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
+	public interface IFactory<<#
+	for (var j = 1; j <= i; j++)
+	{
+		#>in T<#= i > 1 ? j.ToString() : "" #>, <#
+	}
+#>out TResult>
+	{
+		/// <summary>
+		/// Creates a new instance of type <typeparamref name="TResult"/><#
+	if (i > 0)
+	{
+		#> using the given parameter<#= i > 1 ? "s" : "" #><#
+	}
+#>.
+		/// </summary>
+<#
+	for (var j = 1; j <= i; j++)
+	{
+#>
+		/// <param name="arg<#= i > 1 ? j.ToString() : "" #>">The<#= i > 1 ? $" {OrdinalString(j)} " : " " #>parameter used to construct the instance.</param>
+<#
+	}
+#>
+		/// <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
+		TResult CreateNew(<#
+	for (var j = 1; j <= i; j++)
+	{
+		#><#= j > 1 ? ", " : "" #>T<#= i > 1 ? j.ToString() : "" #> arg<#= i > 1 ? j.ToString() : "" #><#
+	}
+#>);
+	}
+<#
+}
+#>
+}
