@@ -15,9 +15,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{759500E3-4242-4836-9601-E27583579422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionSeed.Factory", "src\OnionSeed.Factory\OnionSeed.Factory.csproj", "{E17095B5-0531-488C-A260-E3A3ED480CF6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E17095B5-0531-488C-A260-E3A3ED480CF6} = {759500E3-4242-4836-9601-E27583579422}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C514F83-49FC-4663-B0C5-2D5F04560DFC}
