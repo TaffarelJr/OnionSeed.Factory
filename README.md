@@ -2,10 +2,20 @@
 
 Contains common factory interface definitions, intended to reduce boilerplate when implementing the [Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern) pattern.
 
-|                  | AppVeyor |
-|------------------|----------|
-| Project          | [![Build status](https://ci.appveyor.com/api/projects/status/b1oiobbyovmqotwh?svg=true)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory-igve9) |
-| Branch: `master` | [![Build status](https://ci.appveyor.com/api/projects/status/b1oiobbyovmqotwh/branch/master?svg=true)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory-igve9/branch/master) |
+## Status
+
+| Work in Progress                                                                                                                                                     |                                                                                                                                                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TaffarelJr/OnionSeed.Factory.svg?logo=github)](https://github.com/TaffarelJr/OnionSeed.Factory) | [![GitHub issues](https://img.shields.io/github/issues-raw/TaffarelJr/OnionSeed.Factory.svg?logo=github)](https://github.com/TaffarelJr/OnionSeed.Factory) |
+
+| Build Status (`master`) |                                                                                                                                                                                          |                                                                                                                                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Continuous Integration: | [![AppVeyor branch](https://img.shields.io/appveyor/ci/TaffarelJr/onionseed-factory/master.svg?logo=appveyor)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory)             | [![AppVeyor tests (branch)](https://img.shields.io/appveyor/tests/TaffarelJr/onionseed-factory/master.svg?logo=appveyor)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory)             |
+| Latest Release:         | [![AppVeyor branch](https://img.shields.io/appveyor/ci/TaffarelJr/onionseed-factory-igve9/master.svg?logo=appveyor)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory-igve9) | [![AppVeyor tests (branch)](https://img.shields.io/appveyor/tests/TaffarelJr/onionseed-factory-igve9/master.svg?logo=appveyor)](https://ci.appveyor.com/project/TaffarelJr/onionseed-factory-igve9) |
+
+| Published Releases                                                                                                                                    |                                                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [![Nuget](https://img.shields.io/nuget/v/OnionSeed.Factory.svg?label=latest%20version&logo=nuget)](https://www.nuget.org/packages/OnionSeed.Factory/) | [![Nuget](https://img.shields.io/nuget/dt/OnionSeed.Factory.svg?logo=nuget)](https://www.nuget.org/packages/OnionSeed.Factory/) |
 
 ## Build
 
