@@ -4,27 +4,27 @@
         <name>OnionSeed.Factory</name>
     </assembly>
     <members>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`1">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`1">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/>.
             </summary>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`1.CreateNewAsync">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`1.CreateNewAsync">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/>.
             </summary>
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`2">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`2">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using one parameter.
             </summary>
             <typeparam name="T">The type of the parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`2.CreateNewAsync(`0)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`2.CreateNewAsync(`0)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameter.
             </summary>
@@ -32,7 +32,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`3">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`3">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using two parameters.
             </summary>
@@ -40,7 +40,7 @@
             <typeparam name="T2">The type of the second parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`3.CreateNewAsync(`0,`1)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`3.CreateNewAsync(`0,`1)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -49,7 +49,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`4">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`4">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using three parameters.
             </summary>
@@ -58,7 +58,7 @@
             <typeparam name="T3">The type of the third parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`4.CreateNewAsync(`0,`1,`2)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`4.CreateNewAsync(`0,`1,`2)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -68,7 +68,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`5">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`5">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using four parameters.
             </summary>
@@ -78,7 +78,7 @@
             <typeparam name="T4">The type of the fourth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`5.CreateNewAsync(`0,`1,`2,`3)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`5.CreateNewAsync(`0,`1,`2,`3)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -89,7 +89,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`6">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`6">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using five parameters.
             </summary>
@@ -100,7 +100,7 @@
             <typeparam name="T5">The type of the fifth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`6.CreateNewAsync(`0,`1,`2,`3,`4)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`6.CreateNewAsync(`0,`1,`2,`3,`4)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -112,7 +112,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`7">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`7">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using six parameters.
             </summary>
@@ -124,7 +124,7 @@
             <typeparam name="T6">The type of the sixth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`7.CreateNewAsync(`0,`1,`2,`3,`4,`5)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`7.CreateNewAsync(`0,`1,`2,`3,`4,`5)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -137,7 +137,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`8">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`8">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using seven parameters.
             </summary>
@@ -150,7 +150,7 @@
             <typeparam name="T7">The type of the seventh parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`8.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`8.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -164,7 +164,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`9">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`9">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using eight parameters.
             </summary>
@@ -178,7 +178,7 @@
             <typeparam name="T8">The type of the eighth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`9.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`9.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -193,7 +193,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`10">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`10">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using nine parameters.
             </summary>
@@ -208,7 +208,7 @@
             <typeparam name="T9">The type of the ninth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`10.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`10.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -224,7 +224,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`11">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`11">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using ten parameters.
             </summary>
@@ -240,7 +240,7 @@
             <typeparam name="T10">The type of the tenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`11.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`11.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -257,7 +257,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`12">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`12">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using eleven parameters.
             </summary>
@@ -274,7 +274,7 @@
             <typeparam name="T11">The type of the eleventh parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`12.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`12.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -292,7 +292,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`13">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`13">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using twelve parameters.
             </summary>
@@ -310,7 +310,7 @@
             <typeparam name="T12">The type of the twelfth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`13.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`13.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -329,7 +329,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`14">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`14">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using thirteen parameters.
             </summary>
@@ -348,7 +348,7 @@
             <typeparam name="T13">The type of the thirteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`14.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`14.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -368,7 +368,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`15">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`15">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using fourteen parameters.
             </summary>
@@ -388,7 +388,7 @@
             <typeparam name="T14">The type of the fourteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`15.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`15.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -409,7 +409,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`16">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`16">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using fifteen parameters.
             </summary>
@@ -430,7 +430,7 @@
             <typeparam name="T15">The type of the fifteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`16.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`16.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -452,7 +452,7 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IAsyncFactory`17">
+        <member name="T:OnionSeed.Factory.IAsyncFactory`17">
             <summary>
             Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/> using sixteen parameters.
             </summary>
@@ -474,7 +474,7 @@
             <typeparam name="T16">The type of the sixteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IAsyncFactory`17.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)">
+        <member name="M:OnionSeed.Factory.IAsyncFactory`17.CreateNewAsync(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -497,33 +497,33 @@
             <returns>A task representing the operation. Upon completion, it will contain
             a new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`1">
+        <member name="T:OnionSeed.Factory.IFactory`1">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/>.
             </summary>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`1.CreateNew">
+        <member name="M:OnionSeed.Factory.IFactory`1.CreateNew">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/>.
             </summary>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`2">
+        <member name="T:OnionSeed.Factory.IFactory`2">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using one parameter.
             </summary>
             <typeparam name="T">The type of the parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`2.CreateNew(`0)">
+        <member name="M:OnionSeed.Factory.IFactory`2.CreateNew(`0)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameter.
             </summary>
             <param name="arg">The parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`3">
+        <member name="T:OnionSeed.Factory.IFactory`3">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using two parameters.
             </summary>
@@ -531,7 +531,7 @@
             <typeparam name="T2">The type of the second parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`3.CreateNew(`0,`1)">
+        <member name="M:OnionSeed.Factory.IFactory`3.CreateNew(`0,`1)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -539,7 +539,7 @@
             <param name="arg2">The second parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`4">
+        <member name="T:OnionSeed.Factory.IFactory`4">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using three parameters.
             </summary>
@@ -548,7 +548,7 @@
             <typeparam name="T3">The type of the third parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`4.CreateNew(`0,`1,`2)">
+        <member name="M:OnionSeed.Factory.IFactory`4.CreateNew(`0,`1,`2)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -557,7 +557,7 @@
             <param name="arg3">The third parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`5">
+        <member name="T:OnionSeed.Factory.IFactory`5">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using four parameters.
             </summary>
@@ -567,7 +567,7 @@
             <typeparam name="T4">The type of the fourth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`5.CreateNew(`0,`1,`2,`3)">
+        <member name="M:OnionSeed.Factory.IFactory`5.CreateNew(`0,`1,`2,`3)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -577,7 +577,7 @@
             <param name="arg4">The fourth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`6">
+        <member name="T:OnionSeed.Factory.IFactory`6">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using five parameters.
             </summary>
@@ -588,7 +588,7 @@
             <typeparam name="T5">The type of the fifth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`6.CreateNew(`0,`1,`2,`3,`4)">
+        <member name="M:OnionSeed.Factory.IFactory`6.CreateNew(`0,`1,`2,`3,`4)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -599,7 +599,7 @@
             <param name="arg5">The fifth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`7">
+        <member name="T:OnionSeed.Factory.IFactory`7">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using six parameters.
             </summary>
@@ -611,7 +611,7 @@
             <typeparam name="T6">The type of the sixth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`7.CreateNew(`0,`1,`2,`3,`4,`5)">
+        <member name="M:OnionSeed.Factory.IFactory`7.CreateNew(`0,`1,`2,`3,`4,`5)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -623,7 +623,7 @@
             <param name="arg6">The sixth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`8">
+        <member name="T:OnionSeed.Factory.IFactory`8">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using seven parameters.
             </summary>
@@ -636,7 +636,7 @@
             <typeparam name="T7">The type of the seventh parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`8.CreateNew(`0,`1,`2,`3,`4,`5,`6)">
+        <member name="M:OnionSeed.Factory.IFactory`8.CreateNew(`0,`1,`2,`3,`4,`5,`6)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -649,7 +649,7 @@
             <param name="arg7">The seventh parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`9">
+        <member name="T:OnionSeed.Factory.IFactory`9">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using eight parameters.
             </summary>
@@ -663,7 +663,7 @@
             <typeparam name="T8">The type of the eighth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`9.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7)">
+        <member name="M:OnionSeed.Factory.IFactory`9.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -677,7 +677,7 @@
             <param name="arg8">The eighth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`10">
+        <member name="T:OnionSeed.Factory.IFactory`10">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using nine parameters.
             </summary>
@@ -692,7 +692,7 @@
             <typeparam name="T9">The type of the ninth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`10.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8)">
+        <member name="M:OnionSeed.Factory.IFactory`10.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -707,7 +707,7 @@
             <param name="arg9">The ninth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`11">
+        <member name="T:OnionSeed.Factory.IFactory`11">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using ten parameters.
             </summary>
@@ -723,7 +723,7 @@
             <typeparam name="T10">The type of the tenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`11.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)">
+        <member name="M:OnionSeed.Factory.IFactory`11.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -739,7 +739,7 @@
             <param name="arg10">The tenth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`12">
+        <member name="T:OnionSeed.Factory.IFactory`12">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using eleven parameters.
             </summary>
@@ -756,7 +756,7 @@
             <typeparam name="T11">The type of the eleventh parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`12.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)">
+        <member name="M:OnionSeed.Factory.IFactory`12.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -773,7 +773,7 @@
             <param name="arg11">The eleventh parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`13">
+        <member name="T:OnionSeed.Factory.IFactory`13">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using twelve parameters.
             </summary>
@@ -791,7 +791,7 @@
             <typeparam name="T12">The type of the twelfth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`13.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)">
+        <member name="M:OnionSeed.Factory.IFactory`13.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -809,7 +809,7 @@
             <param name="arg12">The twelfth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`14">
+        <member name="T:OnionSeed.Factory.IFactory`14">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using thirteen parameters.
             </summary>
@@ -828,7 +828,7 @@
             <typeparam name="T13">The type of the thirteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`14.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)">
+        <member name="M:OnionSeed.Factory.IFactory`14.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -847,7 +847,7 @@
             <param name="arg13">The thirteenth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`15">
+        <member name="T:OnionSeed.Factory.IFactory`15">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using fourteen parameters.
             </summary>
@@ -867,7 +867,7 @@
             <typeparam name="T14">The type of the fourteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`15.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)">
+        <member name="M:OnionSeed.Factory.IFactory`15.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -887,7 +887,7 @@
             <param name="arg14">The fourteenth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`16">
+        <member name="T:OnionSeed.Factory.IFactory`16">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using fifteen parameters.
             </summary>
@@ -908,7 +908,7 @@
             <typeparam name="T15">The type of the fifteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`16.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)">
+        <member name="M:OnionSeed.Factory.IFactory`16.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>
@@ -929,7 +929,7 @@
             <param name="arg15">The fifteenth parameter used to construct the instance.</param>
             <returns>A new instance of type <typeparamref name="TResult"/>.</returns>
         </member>
-        <member name="T:OnionSeed.Factories.IFactory`17">
+        <member name="T:OnionSeed.Factory.IFactory`17">
             <summary>
             Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/> using sixteen parameters.
             </summary>
@@ -951,7 +951,7 @@
             <typeparam name="T16">The type of the sixteenth parameter. This type parameter is contravariant.</typeparam>
             <typeparam name="TResult">The type to be constructed. This type parameter is covariant.</typeparam>
         </member>
-        <member name="M:OnionSeed.Factories.IFactory`17.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)">
+        <member name="M:OnionSeed.Factory.IFactory`17.CreateNew(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)">
             <summary>
             Creates a new instance of type <typeparamref name="TResult"/> using the given parameters.
             </summary>

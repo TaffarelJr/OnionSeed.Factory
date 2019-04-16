@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace OnionSeed.Factories
+namespace OnionSeed.Factory
 {
 	/// <summary>
 	/// Defines a mechanism that can be used to asynchronously construct instances of a specified type <typeparamref name="TResult"/>.

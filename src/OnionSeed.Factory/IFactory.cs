@@ -1,4 +1,4 @@
-﻿namespace OnionSeed.Factories
+﻿namespace OnionSeed.Factory
 {
 	/// <summary>
 	/// Defines a mechanism that can be used to construct instances of a specified type <typeparamref name="TResult"/>.

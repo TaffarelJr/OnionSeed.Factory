@@ -1,5 +1,5 @@
 ﻿<#@ include file="Shared.t4" #>
-namespace OnionSeed.Factories
+namespace OnionSeed.Factory
 {
 <#
 for (var i = 0; i <= 16; i++)

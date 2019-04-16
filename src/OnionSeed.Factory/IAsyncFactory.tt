@@ -1,7 +1,7 @@
 ﻿<#@ include file="Shared.t4" #>
 using System.Threading.Tasks;
 
-namespace OnionSeed.Factories
+namespace OnionSeed.Factory
 {
 <#
 for (var i = 0; i <= 16; i++)
