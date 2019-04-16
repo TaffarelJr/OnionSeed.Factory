@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{759500E3-424
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionSeed.Factory", "src\OnionSeed.Factory\OnionSeed.Factory.csproj", "{E17095B5-0531-488C-A260-E3A3ED480CF6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{30D09416-BEFB-4DF9-B012-93F37B6AA6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionSeed.Factory.Tests", "test\OnionSeed.Factory.Tests\OnionSeed.Factory.Tests.csproj", "{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,17 @@ Global
 		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17095B5-0531-488C-A260-E3A3ED480CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E17095B5-0531-488C-A260-E3A3ED480CF6} = {759500E3-4242-4836-9601-E27583579422}
+		{BCAB2D2C-E1F6-4AA1-B03C-09322E047F33} = {30D09416-BEFB-4DF9-B012-93F37B6AA6A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C514F83-49FC-4663-B0C5-2D5F04560DFC}
