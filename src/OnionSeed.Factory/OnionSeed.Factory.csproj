@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard1.1</TargetFramework>
 		<Description>Common factory definitions.</Description>
+		<RepositoryUrl>https://github.com/TaffarelJr/OnionSeed.Factory.git</RepositoryUrl>
 	</PropertyGroup>
 
 	<Import Project="..\..\build\Production.props" />
