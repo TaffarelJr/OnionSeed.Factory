@@ -11,5 +11,4 @@
 		<ProjectReference Include="..\..\src\OnionSeed.Factory\OnionSeed.Factory.csproj" />
 	</ItemGroup>
 
-
 </Project>
